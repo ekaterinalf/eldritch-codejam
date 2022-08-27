@@ -1,0 +1,119 @@
+body {
+  height: 100%;
+  background-image: url(/assets/home.png);
+  background-size: cover;
+  display: flex;
+}
+
+.ancients-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ancients-container img {
+  width: 270px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.ancients-container img.active {
+  border: 2px solid red;
+}
+
+.difficulties-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.difficulties-container .difficult {
+  border: 2px solid white;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+  width: 120px;
+  background: rgba(255,255,255, .3);
+}
+
+.difficulties-container .difficult.active {
+  border: 2px solid red;
+  color: red;
+}
+
+.deck-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  opacity: 0;
+}
+
+.deck-container .current-state {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 30%;
+}
+
+.deck-container .current-state .stage-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.deck-container .current-state .stage-container .stage-text {
+  color: white;
+}
+.deck-container .current-state .stage-container .dots-container {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.deck-container .current-state .stage-container .dot {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+  color: white;
+}
+.deck-container .current-state .stage-container .dot.green {
+  background-color: green;
+}
+.deck-container .current-state .stage-container .dot.brown {
+  background-color: brown;
+}
+.deck-container .current-state .stage-container .dot.blue {
+  background-color: blue;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.deck {
+  background-image: url(/assets/mythicCardBackground.png);
+  width: 270px;
+  height: 350px;
+  cursor: pointer;
+}
+.last-card {
+  width: 270px;
+  height: 350px;
+  background-color: brown;
+}

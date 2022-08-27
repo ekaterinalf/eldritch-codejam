@@ -1,10 +1,10 @@
-import Ancients from '../assets/Ancients/index'
+// import ancients from '../assets/Ancients/index.js'
 
 const ancientsData = [
   {
     id: 'azathoth',
     name: 'azathoth',
-    cardFace: Ancients.azathoth,
+    cardFace: 'assets/Ancients/Azathoth.png',
     firstStage: {
       greenCards: 1,
       blueCards: 1,
@@ -20,11 +20,16 @@ const ancientsData = [
       blueCards: 0,
       brownCards: 4,
     },
+    allCards: {
+      greenCards: 5,
+      blueCards: 2,
+      brownCards: 9,
+    }
   },
   {
     id: 'cthulhu',
     name: 'cthulhu',
-    cardFace: Ancients.cthulhu,
+    cardFace: 'assets/Ancients/Cthulthu.png',
     firstStage: {
       greenCards: 0,
       blueCards: 2,
@@ -40,11 +45,16 @@ const ancientsData = [
       blueCards: 0,
       brownCards: 4,
     },
+    allCards: {
+      greenCards: 4,
+      blueCards: 2,
+      brownCards: 9,
+    }
   },
   {
     id: 'iogSothoth',
     name: 'iogSothoth',
-    cardFace: Ancients.iogSothoth,
+    cardFace: '/assets/Ancients/IogSothoth.png',
     firstStage: {
       greenCards: 0,
       blueCards: 1,
@@ -60,11 +70,16 @@ const ancientsData = [
       blueCards: 0,
       brownCards: 4,
     },
+    allCards: {
+      greenCards: 5,
+      blueCards: 2,
+      brownCards: 9,
+    }
   },
   {
     id: 'shubNiggurath',
     name: 'shubNiggurath',
-    cardFace: Ancients.shubNiggurath,
+    cardFace: 'assets/Ancients/ShubNiggurath.png',
     firstStage: {
       greenCards: 1,
       blueCards: 1,
@@ -80,6 +95,11 @@ const ancientsData = [
       blueCards: 0,
       brownCards: 4,
     },
+    allCards: {
+      greenCards: 6,
+      blueCards: 2,
+      brownCards: 8,
+    }
   },
 ]
 
