@@ -54,7 +54,7 @@ const ancientsData = [
   {
     id: 'iogSothoth',
     name: 'iogSothoth',
-    cardFace: '/assets/Ancients/IogSothoth.png',
+    cardFace: 'assets/Ancients/IogSothoth.png',
     firstStage: {
       greenCards: 0,
       blueCards: 1,

@@ -1,6 +1,6 @@
 body {
   height: 100%;
-  background-image: url(/assets/home.png);
+  background-image: url('assets/home.png');
   background-size: cover;
   display: flex;
 }
@@ -107,7 +107,7 @@ body {
 }
 
 .deck {
-  background-image: url(/assets/mythicCardBackground.png);
+  background-image: url('assets/mythicCardBackground.png');
   width: 270px;
   height: 350px;
   cursor: pointer;
